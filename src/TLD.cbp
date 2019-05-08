@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TLD"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tld_utils">
+				<Option output="/home/daozhi/桌面/TLD/lib/libtld_utils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/daozhi/桌面/TLD/src/../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 tld_utils"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tld_utils/fast">
+				<Option output="/home/daozhi/桌面/TLD/lib/libtld_utils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/daozhi/桌面/TLD/src/../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 tld_utils/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ferNN">
+				<Option output="/home/daozhi/桌面/TLD/lib/libferNN.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/daozhi/桌面/TLD/src/../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 ferNN"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ferNN/fast">
+				<Option output="/home/daozhi/桌面/TLD/lib/libferNN.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/daozhi/桌面/TLD/src/../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 ferNN/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tld">
+				<Option output="/home/daozhi/桌面/TLD/lib/libtld.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/daozhi/桌面/TLD/src/../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 tld"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tld/fast">
+				<Option output="/home/daozhi/桌面/TLD/lib/libtld.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/daozhi/桌面/TLD/src/../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 tld/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LKTracker">
+				<Option output="/home/daozhi/桌面/TLD/lib/libLKTracker.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/daozhi/桌面/TLD/src/../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 LKTracker"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LKTracker/fast">
+				<Option output="/home/daozhi/桌面/TLD/lib/libLKTracker.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/daozhi/桌面/TLD/src/../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 LKTracker/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PatchGenerator">
+				<Option output="/home/daozhi/桌面/TLD/lib/libPatchGenerator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/daozhi/桌面/TLD/src/../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 PatchGenerator"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PatchGenerator/fast">
+				<Option output="/home/daozhi/桌面/TLD/lib/libPatchGenerator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/daozhi/桌面/TLD/src/../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 PatchGenerator/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/daozhi/桌面/TLD/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_tld">
+				<Option output="/home/daozhi/桌面/TLD/bin/run_tld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daozhi/桌面/TLD/src/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/daozhi/桌面/TLD/src/../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 run_tld"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_tld/fast">
+				<Option output="/home/daozhi/桌面/TLD/bin/run_tld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daozhi/桌面/TLD/src/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/daozhi/桌面/TLD/src/../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 run_tld/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/daozhi/桌面/TLD/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/daozhi/桌面/TLD/src/FerNNClassifier.cpp">
+			<Option target="ferNN"/>
+		</Unit>
+		<Unit filename="/home/daozhi/桌面/TLD/src/LKTracker.cpp">
+			<Option target="LKTracker"/>
+		</Unit>
+		<Unit filename="/home/daozhi/桌面/TLD/src/PatchGenerator.cpp">
+			<Option target="PatchGenerator"/>
+		</Unit>
+		<Unit filename="/home/daozhi/桌面/TLD/src/PatchGenerator.h">
+			<Option target="tld_utils"/>
+			<Option target="ferNN"/>
+			<Option target="tld"/>
+			<Option target="LKTracker"/>
+			<Option target="PatchGenerator"/>
+			<Option target="run_tld"/>
+		</Unit>
+		<Unit filename="/home/daozhi/桌面/TLD/src/TLD.cpp">
+			<Option target="tld"/>
+		</Unit>
+		<Unit filename="/home/daozhi/桌面/TLD/src/run.cpp">
+			<Option target="run_tld"/>
+		</Unit>
+		<Unit filename="/home/daozhi/桌面/TLD/src/tld_utils.cpp">
+			<Option target="tld_utils"/>
+		</Unit>
+		<Unit filename="/home/daozhi/桌面/TLD/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/daozhi/桌面/TLD/src/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/daozhi/桌面/TLD/src/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/daozhi/桌面/TLD/src/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/daozhi/桌面/TLD/src/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
