@@ -123,7 +123,7 @@ make
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;make命令执行成功后会在build目录下生成bin文件夹，进入bin文件夹就可以运行可执行文件了：
 ``` bash
-./run_tld -p ../parameters.yml -s ../datasets/06_car/car.mpg    # -p用来指定tld算法的参数文件 -s选项用来选择传入的视频文件，可以连续输入多个视频做跨摄像头目标跟踪
+./run -p ../parameters.yml -s ../datasets/06_car/car.mpg    # -p用来指定tld算法的参数文件 -s选项用来选择传入的视频文件，可以连续输入多个视频做跨摄像头目标跟踪
 ```
 ### 三、联系方式
  - 邮箱：1725805106@qq.com
