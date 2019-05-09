@@ -1,4 +1,5 @@
 "# MultiCameraTargetTracking" 
+# 使用前务必仔细阅读此文件！
 ## 开发环境
  - 操作系统：Ubuntu 16.04
  - OpenCV版本：OpenCV-3.4.5
@@ -121,7 +122,12 @@ cd build
 cmake ../src/
 make
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;make命令执行成功后会在build目录下生成bin文件夹，进入bin文件夹就可以运行可执行文件了：
+&nbsp;&nbsp;&nbsp;&nbsp;make命令执行成功后会在build目录下生成bin文件夹，进入bin文件夹就可以运行可执行文件了。
+首先要下载已经训练好的caffe模型，并放在bin目录下，已经下训练好的模型链接如下：
+链接：https://pan.baidu.com/s/1_04T437MJFdgDefOYYKtQQ 
+提取码：wz5s 
+同时，这个链接中也包含了两个演示视频。
+然后运行以下命令运行程序：
 ``` bash
 ./run -p ../parameters.yml -s ../datasets/06_car/car.mpg    # -p用来指定tld算法的参数文件 -s选项用来选择传入的视频文件，可以连续输入多个视频做跨摄像头目标跟踪
 ```
