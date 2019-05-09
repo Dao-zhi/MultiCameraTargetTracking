@@ -25,7 +25,7 @@ add_library(PatchGenerator PatchGenerator.cpp PatchGenerator.h)
 #executables
 add_executable(run_tld run.cpp PatchGenerator.h)
 #link the libraries
-target_link_libraries(run_tld tld LKTracker ferNN tld_utils PatchGenerator ${OpenCV_LIBS})
+target_link_libraries(run tld LKTracker ferNN tld_utils PatchGenerator ${OpenCV_LIBS})
 #set optimization level 
 # set(CMAKE_BUILD_TYPE Release)
 SET(CMAKE_BUILD_TYPE Debug)
